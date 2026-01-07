@@ -13,7 +13,6 @@ export default function CommitmentSection() {
             pointer-events-none
             "
         />
-      <div className="absolute inset-0 bg-[url('/commitment.jpg')] bg-cover bg-center opacity-20" />
 
       <div className="relative max-w-4xl mx-auto px-6 text-left">
 

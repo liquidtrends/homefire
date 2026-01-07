@@ -34,14 +34,6 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Homefire Consulting | Indigenous-Led Workforce & Community Solutions",
-    description:
-      "Homefire Consulting is an Indigenous woman-owned family business dedicated to strengthening communities, organizations, and workforce development with culturally grounded solutions.",
-    creator: "@HomefireConsulting", // Replace with your Twitter handle if you have one
-    images: ["/og-image.jpg"],
-  },
 };
 
 export default function RootLayout({
