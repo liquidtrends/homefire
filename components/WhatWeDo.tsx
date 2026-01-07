@@ -38,8 +38,8 @@ const services = [
 
 export default function WhatWeDo() {
   return (
-    <section id="what-we-do" className="relative py-20 bg-gray-900 overflow-hidden">
-      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-red-600/20 rounded-full blur-3xl pointer-events-none translate-x-1/2 translate-y-1/2 z-0"></div>
+    <section id="what-we-do" className="relative py-20 bg-gradient-to-tr from-gray-800 to-stone-900 overflow-hidden">
+      <div className="absolute bottom-0 right-0 w-[800px] h-[800px] bg-red-600/20 rounded-full blur-3xl pointer-events-none translate-x-1/2 translate-y-1/2 z-0"></div>
 
       <div className="relative z-10">
         <SectionHeading>
@@ -50,9 +50,9 @@ export default function WhatWeDo() {
         {services.map((service, index) => (
             <div
             key={index}
-            className="break-inside-avoid bg-stone-950 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-stone-700 mb-6"
+            className="break-inside-avoid bg-gradient-to-tr from-[#BE1E2D] to-[#ED1C324] p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-stone-700 mb-6"
             >
-            <h3 className="font-semibold text-2xl mb-4 text-red-500">
+            <h3 className="font-semibold text-2xl mb-4 text-white">
                 {service.title}
             </h3>
             <ul className="list-disc list-outside pl-5 text-gray-300 space-y-2">

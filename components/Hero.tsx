@@ -5,10 +5,8 @@ export default function Hero() {
     <section className="relative h-[650px] md:h-screen overflow-hidden">
       <Navbar />
 
-      {/* Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-tr from-gray-800 to-stone-900" />
 
-      {/* Bottom Image */}
       <div className="absolute bottom-0 left-0 w-full">
         <img
           src="/hero-background.png"
@@ -17,7 +15,6 @@ export default function Hero() {
         />
       </div>
 
-      {/* Text Overlay */}
       <div className="absolute inset-0 flex items-center justify-center text-center px-6">
         <div className="text-white max-w-4xl p-4 md:p-6 rounded">
           <h1 className="text-5xl md:text-6xl font-bold mb-4 text-white leading-snug md:leading-relaxed">
