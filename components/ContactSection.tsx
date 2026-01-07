@@ -52,7 +52,7 @@ export default function ContactSection() {
         </div>
 
         <div className="pt-10 text-gray-400 text-xs max-w-5xl mx-auto">
-          <p className="mb-5">Homefire is certified with the Canadian Council for Aboriginal Business.</p>
+          <p className="mb-5">Homefire is certified with the Canadian Council for Indigenous Business.</p>
           <p>
             Homefire Consulting is based in Amiskwacîwâskahikan (Edmonton, Alberta). We respectfully acknowledge Treaty 6 Territory as home to many Indigenous Nations including the Cree, Dene, Nakota Sioux, Blackfoot, Saulteaux and Otipemisiwak Métis people.
           </p>
