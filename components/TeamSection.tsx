@@ -55,7 +55,7 @@ export default function TeamSection() {
         ))}
       </div>
 
-      <div className="max-w-4xl mx-auto mt-10 text-center">
+      <div className="max-w-4xl mx-auto mt-10 text-center p-3">
         <p className="text-gray-700 text-base leading-relaxed">
           Candice and Kevin are proud of their Inuit lineage, with family roots tracing back to the Lower North Shore of Quebec (Saint Augustine & St. Paul’s River), and carry this connection with care and respect in both their personal and professional lives.
         </p>
