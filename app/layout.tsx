@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Homefire Consulting",
     images: [
       {
-        url: "/og-image.jpg", // Replace with your actual OG image
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Homefire Consulting",
