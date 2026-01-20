@@ -36,11 +36,11 @@ export default function ContactSection() {
 
         <div className="flex flex-col items-center gap-4 mb-10">
             <a
-                href="mailto:candice@homefireconsultingltd.com"
+                href="mailto:info@homefireconaultingltd.com"
                 className="bg-red-600 px-6 py-3 rounded-full font-semibold hover:bg-red-700 transition-colors flex items-center gap-3"
             >
                 <MdEmail size={20} />
-                <span>candice@homefireconsultingltd.com</span>
+                <span>info@homefireconaultingltd.com</span>
             </a>
             <a
                 href="tel:+17807175277"
